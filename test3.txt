@@ -1,0 +1,11 @@
+SIMULA
+	//for loop
+	
+	i_var i;
+	
+	umikot_until(i:=0;i<5;i:=i+1){
+		ipakita_this("The current number of the loop is:");
+		ipakita_this(i);
+		ipakita_this("\n");
+	}
+TAPOS

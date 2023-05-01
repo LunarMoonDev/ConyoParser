@@ -1,0 +1,6 @@
+SIMULA
+	i_var o := 1;
+	o := 1 + 3 * 7;
+	ipakita_this(o);
+
+TAPOS

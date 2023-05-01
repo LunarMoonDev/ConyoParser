@@ -1,0 +1,4 @@
+SIMULA
+	ipakita_this(o);
+	ipakita_this("hello");
+TAPOS

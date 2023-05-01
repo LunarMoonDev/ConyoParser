@@ -1,0 +1,4 @@
+SIMULA
+	i_var a := 3/0;
+	ipakita_this("hello");
+TAPOS

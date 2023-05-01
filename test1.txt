@@ -1,0 +1,11 @@
+SIMULA
+	i_var i;
+	d_var d;
+	c_var c;
+	f_var f;
+	s_var s;
+	
+	//multi ident
+	i_var j,k,l;
+	d_var e,g;
+TAPOS

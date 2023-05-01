@@ -1,0 +1,14 @@
+SIMULA
+	//if else
+	
+	i_var n, o;
+	
+	n:=66;
+	o:=9;
+	kung_true(n<o || 1<0){
+		ipakita_this("Hello");
+	}
+	edi_kung(n>0){
+		ipakita_this("Goodbye");
+	}
+TAPOS

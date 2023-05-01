@@ -1,0 +1,12 @@
+SIMULA
+	//do while
+	
+	i_var i:= 5;
+	
+	make_pasok{
+		ipakita_this("Hello\n");
+		i:= i/0;
+	}then_ikot(i!=0){
+		ipakita_this("I show up when the loop fails.");
+	}
+TAPOS

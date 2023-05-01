@@ -1,0 +1,12 @@
+SIMULA
+	//input
+	
+	i_var i;
+	
+	ipakita_this(1 + 3 / 4 / 2 * 9);
+	basahin_this(i);
+	
+	//output
+	ipakita_this("The number you inputted is:");
+	ipakita_this(i);
+TAPOS

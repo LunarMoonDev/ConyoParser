@@ -1,0 +1,26 @@
+SIMULA
+
+	//logical operator sample program
+	
+	b_var a := TAMA;
+	b_var b := MALI;
+	
+	b_var andcase := a&&b || MALI || 1 < 0 || 2 < 3;
+	b_var orcase := a||b;
+	b_var notcase := !a;
+	b_var nandcase := a!&b;
+	b_var norcase := a!|b;
+	b_var xorcase := a@b;
+	b_var xnorcase := a!@b;
+	
+	ipakita_this(andcase);
+	ipakita_this(orcase);
+	ipakita_this(notcase);
+	ipakita_this(nandcase);
+	ipakita_this(norcase);
+	ipakita_this(xorcase);
+	ipakita_this(xnorcase);
+	
+	//expected output: MALI,TAMA,MALI,TAMA,MALI,TAMA,MALI
+
+TAPOS

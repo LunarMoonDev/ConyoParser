@@ -1,0 +1,20 @@
+SIMULA
+	i_var n1 := 0;
+	i_var n2 := 1;
+	i_var n3, i, count;
+	
+	ipakita_this("Input a number: \n");
+	basahin_this(count);
+	ipakita_this(n1);
+	ipakita_this(" ");
+	ipakita_this(n2);
+	ipakita_this(" ");
+	umikot_until(i := 2;i < count; i:=i+1){
+		n3 := "I"; //n1 + n2;
+		ipakita_this(n3);
+		ipakita_this(" ");
+		n1 := n2;
+		n2 := n3;
+	}
+
+TAPOS

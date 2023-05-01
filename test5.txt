@@ -1,0 +1,22 @@
+SIMULA
+	//switch
+	
+	i_var i:=4;
+	
+	make_pili(i){
+	
+	case '2':{
+		ipakita_this("Hello");
+	}
+	
+	case '3':{
+		ipakita_this("Hi");
+	}
+	case '4':{
+		ipakita_this("Love");
+	}
+	no_choice_me: {
+		ipakita_this("Goodbye");
+	}
+	}
+TAPOS

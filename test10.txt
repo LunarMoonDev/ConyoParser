@@ -1,0 +1,26 @@
+SIMULA
+
+	//nesting
+	
+	i_var n, o, p;
+	
+	n:=69;
+	o:=96;
+	p:=100;
+	kung_true(n>o || 1> 0){
+		ipakita_this("Hello");
+		kung_true(p>o){
+			ipakita_this("Hello again!");
+		}
+		kung_not{
+			ipakita_this("Edi goodbye!");
+		}
+	}
+	edi_kung(n<o){
+		ipakita_this("Hi");
+	}
+	edi_kung(n==o){
+		ipakita_this("Goodbye");
+	}
+
+TAPOS

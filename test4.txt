@@ -1,0 +1,10 @@
+SIMULA
+	// while loop
+	
+	i_var i:=5;
+	
+	while_true(i!=0){
+		ipakita_this("I'm still not 0!");
+		i:=i/2;
+	}
+TAPOS

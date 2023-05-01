@@ -1,0 +1,13 @@
+SIMULA
+	//c_assign
+	
+	i_var i,j,k,l,m,n;
+	
+	i:= 90;
+	j:= 80;
+	k:= 70;
+	
+	l:= i+j;
+	m:= j+k;
+	n:= i+k;
+TAPOS
